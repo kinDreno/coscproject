@@ -27,7 +27,7 @@ export const Main = () => {
   return (
     <>
       <div className="h-screen w-full bg-black/35 absolute top-0 left-0 z-20" />{" "}
-      <main className="w-full h-screen relative">
+      <main className="w-full h-screen relative" id="main">
         <div
           style={{
             backgroundImage: `url(${current})`,
@@ -40,7 +40,7 @@ export const Main = () => {
           <section className="h-[80%] flex justify-start items-center w-[40%] text-left p-4 z-40">
             <h1
               style={{ textShadow: "0 0 2px white" }}
-              className="text-lg text-white space-y-11"
+              className="text-lg text-white space-y-11 max-md:text-sm"
             >
               <b>Welcome to our COSC15 Website!</b> <br />
               We are a team of passionate individuals, each with unique talents
@@ -61,11 +61,11 @@ export const Main = () => {
           </section>
           <section className="h-[70%] w-[35%] flex justify-center items-center z-40">
             <Image
-              className="w-[60%] h-[60%]"
+              className="w-[60%] h-[60%] max-lg:w-[50%] max-lg:h-[50%]"
               alt="CCT Logo"
               src={"/scs-final.png"}
-              width={500}
-              height={200}
+              width={1000}
+              height={1000}
             />
           </section>
         </div>

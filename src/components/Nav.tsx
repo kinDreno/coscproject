@@ -6,7 +6,7 @@ export const Nav = () => {
     <>
       <nav className="z-50 fixed max-sm:h-[13vh] h-[11vh] w-full backdrop-blur-sm flex justify-around items-center rounded-b-lg">
         <div>
-          <Link className=" flex space-x-3 items-center" href={""}>
+          <Link className=" flex space-x-3 items-center" href={"/"}>
             <BiCodeAlt size={50} />
             <h1 style={{ textShadow: "0 0 5px white" }}>
               <b>BSCS 1-1</b>

@@ -16,13 +16,13 @@ const reviews = [
   },
   {
     name: "Alquin Suedad",
-    username: "@jane",
+    username: "@asdahsd",
     body: "I feel alive",
     img: "/quin.jpg",
   },
   {
     name: "Mariel San Mateo",
-    username: "@jenny",
+    username: "@example",
     body: "I'm at a loss for words. This is amazing. I love it.",
     img: "mariel.jpg",
   },
