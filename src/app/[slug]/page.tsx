@@ -94,18 +94,18 @@ export default function DynamicPage() {
             <ul className="list-disc pl-6 space-y-2">
               {route.hobbies.map((hobby, index) => (
                 <li key={index}>
-                  <strong>{hobby}:</strong>
+                  <strong>{hobby}</strong>
                 </li>
               ))}
             </ul>
           </div>
           <div className="mb-6">
-            <h2 className="text-xl font-semibold text-blue-500 mb-2">Skills</h2>
+            <h2 className="text-xl font-semibold text-blue-500 mb-2">
+              Talents
+            </h2>
             <ul className="list-disc pl-6 space-y-2">
               {route.talents.map((talent, index) => (
-                <li key={index} className="text-gray-700">
-                  {talent}
-                </li>
+                <li key={index}>{talent}</li>
               ))}
             </ul>
           </div>

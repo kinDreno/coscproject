@@ -12,7 +12,8 @@ export const Nav = () => {
               style={{ textShadow: "0 0 5px white" }}
               className="max-sm:text-sm"
             >
-              <b>BSCS 1-1</b>
+              <b>BSCS 1-1</b> <br />
+              <small>S.Y 2024-2025</small>
             </h1>
           </Link>
         </div>

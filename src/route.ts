@@ -1,10 +1,10 @@
-// routes.ts
 const routes = [
   {
     slug: "quin",
     name: "Alquin Suedad",
     imgPer: "/quin.jpg",
-    about: "?",
+    about:
+      "I love exploring new things, whether it’s diving into exciting technologies, learning a new skill, or embracing fresh experiences. Coding is a big part of my life—it challenges and inspires me to create something meaningful. When I'm not programming, you'll often find me playing the guitar, letting the music unwind my thoughts.",
     age: 18,
     birthday: "September 7, 2006",
     address: "Sungay East Tagaytay City",
@@ -57,7 +57,7 @@ const routes = [
     slug: "ericka",
     name: "Ericka Mae Sagales",
     imgPer: "/ericka.jpeg",
-    about: `cute lang po ('di ko alam T^T)`,
+    about: `A courageous individual who finds joy in watching Marvel movies and listening to BTS, whose music inspires me deeply. In my free time, I enjoy spending moments with my family, friends, and boyfriend, cherishing the peace and happiness they bring. I find fulfillment in exploring personal growth through articles and love learning about different topics. With a heart full of positivity and a love for what inspires me, I aim to live a life filled with meaningful connections and peaceful moments.`,
     age: 18,
     birthday: " April 10, 2006",
     address: "The Mandara Subd. Brgy Tartaria, Silang, Cavite.",
@@ -66,18 +66,57 @@ const routes = [
     hero: "Miya",
     heroImg: "/miya.jpg",
   },
+  {
+    slug: "tanuyan",
+    name: "Rosselene Tanuyan",
+    imgPer: "/tanuyan.jpg",
+    about: `A ray of sunshine, spreading joy and warmth wherever she goes. Her bright smile and infectious laughter brighten every day, inspiring others with her unwavering optimism and effortless charm.
+`,
+    age: 18,
+    birthday: "December 30, 2005",
+    address: "226, Purok 1, Banaba Lejos, Indang, Cavite",
+    hobbies: ["Sleeping", "Eating", "Watching Animes", "Reading Comics"],
+    talents: ["Singing"],
+    hero: "Chang'e",
+    heroImg: "/change-static.png",
+  },
+  {
+    slug: "bello",
+    name: "Rio Mae Bello",
+    imgPer: "/bello.png",
+    about:
+      "A passionate individual who finds joy in the world of art and creativity. From drawing and painting to exploring new mediums, I express myself through the beauty of colors and shapes. I cherish moments spent with family and loved ones, always striving to give back to them for their sacrifices. Driven by a deep sense of purpose, I work hard as a student to support both my education and my family. With a love for solitude and a heart full of determination, I seek to explore new artistic horizons and continuously grow in life.",
+    age: 18,
+    birthday: "April 1, 2006",
+    address: " Brgy. Banay banay Amadeo Cavite",
+    hobbies: ["Cooking", "Drawing", "Painting", "Video Games", "Watching"],
+    talents: ["Drawing", "Painting"],
+    hero: "Esmeralda",
+    heroImg: "/esme-static.jpg",
+  },
+  {
+    slug: "yongis",
+    name: "Abegael Yongis",
+    imgPer: "/yongis.jpeg",
+    about:
+      "An introverted girl who loves quiet moments and spending time with cats and dogs. Their company makes her happy and brings her peace. She’s a big fan of EXO and bands (WDW, 1D, The Vamps) and loves to go to any concerts. When she’s not immersed in music or cuddling with her furry friends, she enjoys drawing, photography, and getting lost in K-dramas and Wattpad. A soft-hearted soul where she finds happiness in the little things and values peaceful moments.",
+    age: 19,
+    birthday: "September 13, 2005",
+    address:
+      " Legarda Street, Castaños Cerca, General Emilio Aguinaldo, Cavite.",
+    hobbies: [
+      "Drawing",
+      "Photography",
+      "Listening to Music",
+      "Watching K-Drama/Movies",
+      "Reading Wattpad and Novels",
+      "Sleeping",
+      "Eating",
+    ],
+    talents: ["Drawing", "Singing"],
+    hero: "Guinevere",
+    heroImg: "/guine-static.jpg",
+  },
 ];
 
 export default routes;
-
-// sluggyHere = {
-//     slug: string
-//     name: string;
-//     age: number;
-//     birthday: string;
-//     address: string;
-//     hobbies: JSON[];
-//     talents: string[];
-//     hero: string;
-//     heroImg: string;
-//   };

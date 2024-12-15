@@ -14,9 +14,9 @@ const Render = () => {
   const [datas] = useState<angGandaNia[]>([
     {
       slug: "audrey",
-      name: "Audrey Vallesteros",
+      name: "Sinead Audrey Vallestero",
       img: "/audrey.jpg",
-      hobbies: "listening to Music, watching anime...",
+      hobbies: "listening to Music, Watching anime...",
       talents: "Singing, Piano...",
     },
     {
@@ -25,7 +25,7 @@ const Render = () => {
       img: "/mariel.jpg",
       hobbies: `Playing Chess,
       Cards..`,
-      talents: "Drawing, Painting",
+      talents: "Drawing, Painting...",
     },
     {
       slug: "quin",
@@ -40,6 +40,27 @@ const Render = () => {
       img: "/ericka.jpeg",
       hobbies: "mangopya",
       talents: "dko alam ditoh",
+    },
+    {
+      slug: "tanuyan",
+      name: "Rosselene Tanuyan",
+      img: "/tanuyan.jpg",
+      hobbies: "Sleeping, Eating...",
+      talents: "Singing",
+    },
+    {
+      slug: "bello",
+      name: "Rio Mae Bello",
+      img: "/bello.png",
+      hobbies: "Cooking, Drawing...",
+      talents: "Drawing & Painting",
+    },
+    {
+      slug: "yongis",
+      name: "Abegael Yongis",
+      img: "/yongis.jpeg",
+      hobbies: "Drawing, Photography...",
+      talents: "Drawing & Singing",
     },
   ]);
 

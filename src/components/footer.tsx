@@ -9,7 +9,8 @@ export default function Footer() {
           </h2>
 
           <p className="mx-auto mt-4 max-w-sm flex justify-center space-x-11 items-center text-gray-500">
-            Made with &nbsp; <FaHeart color="red" /> &nbsp; in Vite and XAML
+            Made with &nbsp; <FaHeart color="red" /> &nbsp; in TailwindCSS and
+            XAML
           </p>
 
           <a
@@ -25,21 +26,21 @@ export default function Footer() {
             <li>
               <a href="#" className="text-gray-500 transition hover:opacity-75">
                 {" "}
-                XAML{" "}
+                CCT{" "}
               </a>
             </li>
 
             <li>
               <a href="#" className="text-gray-500 transition hover:opacity-75">
                 {" "}
-                Vite{" "}
+                BSCS 1-1{" "}
               </a>
             </li>
 
             <li>
               <a href="#" className="text-gray-500 transition hover:opacity-75">
                 {" "}
-                Linux{" "}
+                S.Y 2024-2025{" "}
               </a>
             </li>
           </ul>

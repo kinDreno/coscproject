@@ -3,8 +3,8 @@ import Marquee from "./ui/marquee";
 
 const reviews = [
   {
-    name: "Audrey Vallesteros",
-    username: "@audreyVallesteros",
+    name: "Sinead Audrey Vallestero",
+    username: "@audreyVallestero",
     body: `A warrior of honor and discipline, I walk the path of the samurai. My blade is getSharp,
 my spirit unbroken.`,
     img: "/audrey.jpg",
@@ -12,20 +12,32 @@ my spirit unbroken.`,
   {
     name: "Ericka Sagalez",
     username: "@erickabayot",
-    body: "ewan ko sayoh teh",
+    body: "eA courageous individual who finds joy in watching Marvel movies and listening to BTS, whose music inspires me deeply. In my free time, I enjoy spending moments with my family, friends, and boyfriend, cherishing the peace and happiness they bring.",
     img: "/ericka.jpeg",
   },
   {
     name: "Alquin Suedad",
-    username: "@asdahsd",
+    username: "@quinkino",
     body: "YAWA!!",
     img: "/quin.jpg",
   },
   {
     name: "Mariel San Mateo",
-    username: "@example",
+    username: "@mariel",
     body: "A soul of creativity and curiosity, I walk the path of growth and learning. My mind is sharp, my heart compassionate, and my spirit resilient.",
     img: "mariel.jpg",
+  },
+  {
+    name: "Rosselene Tanuyan",
+    username: "@rosselene",
+    body: "A ray of sunshine, spreading joy and warmth wherever she goes. Her bright smile and infectious laughter brighten every day, inspiring others with her unwavering optimism and effortless charm.",
+    img: "/tanuyan.jpg",
+  },
+  {
+    name: "Rio Mae Bello",
+    username: "@riomae",
+    body: "A passionate individual who finds joy in the world of art and creativity. From drawing and painting to exploring new mediums, I express myself through the beauty of colors and shapes.",
+    img: "/bello.png",
   },
 ];
 
