@@ -5,7 +5,8 @@ const reviews = [
   {
     name: "Audrey Vallesteros",
     username: "@audreyVallesteros",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
+    body: `A warrior of honor and discipline, I walk the path of the samurai. My blade is getSharp,
+my spirit unbroken.`,
     img: "/audrey.jpg",
   },
   {
@@ -17,13 +18,13 @@ const reviews = [
   {
     name: "Alquin Suedad",
     username: "@asdahsd",
-    body: "I feel alive",
+    body: "YAWA!!",
     img: "/quin.jpg",
   },
   {
     name: "Mariel San Mateo",
     username: "@example",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    body: "A soul of creativity and curiosity, I walk the path of growth and learning. My mind is sharp, my heart compassionate, and my spirit resilient.",
     img: "mariel.jpg",
   },
 ];

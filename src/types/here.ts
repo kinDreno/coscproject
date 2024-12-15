@@ -2,20 +2,24 @@ export type sluggyHere = {
   slug: string;
   name: string;
   imgPer: string;
+  about: string;
   age: number;
   birthday: string;
   address: string;
-  hobbies: Hobby[];
+  hobbies: string[];
   talents: string[];
   hero: string;
   heroImg: string;
 };
 
-type Hobby = {
-  hobby: string;
-  caption: string;
-};
-
 export type MainRender = {
   name: string;
+};
+
+export type angGandaNia = {
+  slug: string;
+  name: string;
+  img: string;
+  hobbies: string;
+  talents: string;
 };

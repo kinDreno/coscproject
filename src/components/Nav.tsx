@@ -15,9 +15,9 @@ export const Nav = () => {
         </div>
         <ul className="flex space-x-3 items-center">
           {[
-            ["Home", "#home"],
-            ["Profiles", "#profiles"],
-            ["Footer", "#footer"],
+            ["Home", "/"],
+            ["Profiles", "/#profiles"],
+            ["Footer", "/#footer"],
           ].map(([el, hre], i) => {
             return (
               <Link key={i} href={hre}>

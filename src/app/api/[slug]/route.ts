@@ -3,9 +3,9 @@ import routes from "@/route";
 
 export async function GET(
   req: NextRequest,
-  { params }: { params: { slug: string } }
+  { params }: { params: Promise<{ slug: string }> }
 ) {
-  const { slug } = params;
+  const { slug } = await params;
   const route = routes.find((r) => r.slug === slug);
 
   if (!route) {

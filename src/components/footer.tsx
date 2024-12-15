@@ -1,8 +1,7 @@
-import { BiCodeAlt } from "react-icons/bi";
 import { FaHeart } from "react-icons/fa";
 export default function Footer() {
   return (
-    <footer className="bg-white dark:bg-black">
+    <footer id="footer" className="bg-white dark:bg-black">
       <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8 lg:pt-24">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold dark:text-white text-gray-900 sm:text-5xl">
@@ -10,8 +9,7 @@ export default function Footer() {
           </h2>
 
           <p className="mx-auto mt-4 max-w-sm flex justify-center space-x-11 items-center text-gray-500">
-            Made with &nbsp; <FaHeart color="red" /> &nbsp; in Vite and
-            Typescript.
+            Made with &nbsp; <FaHeart color="red" /> &nbsp; in Vite and XAML
           </p>
 
           <a

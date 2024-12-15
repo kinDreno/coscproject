@@ -44,8 +44,7 @@ export const Main = () => {
             >
               <b>Welcome to our COSC15 Website!</b> <br />
               We are a team of passionate individuals, each with unique talents
-              and hobbies. From gaming to coding, we thrive on collaboration and
-              creativity. Explore our world of skills, interests, and shared
+              and hobbies. Explore our world of skills, interests, and shared
               passions!
               <div className="flex items-center">
                 <FaLongArrowAltDown className="animate-bounce" size={30} />
@@ -61,7 +60,7 @@ export const Main = () => {
           </section>
           <section className="h-[70%] w-[35%] flex justify-center items-center z-40">
             <Image
-              className="w-[60%] h-[60%] max-lg:w-[50%] max-lg:h-[50%]"
+              className="w-[60%] max-md:hidden h-[60%] max-md:h-[w] max-lg:w-[50%] max-sm:w-[80%] max-sm:h-[30%] max-lg:h-[40%]"
               alt="CCT Logo"
               src={"/scs-final.png"}
               width={1000}
