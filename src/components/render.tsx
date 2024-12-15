@@ -65,7 +65,10 @@ const Render = () => {
   ]);
 
   return (
-    <main className="min-h-[40vh]  p-8 flex justify-center items-center">
+    <main
+      id="profiles"
+      className="min-h-[40vh]  p-8 flex justify-center items-center"
+    >
       <section
         style={{ boxShadow: "0 3px 8px white" }}
         className="w-full max-w-4xl rounded-lg shadow-lg p-6"
