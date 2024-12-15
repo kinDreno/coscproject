@@ -1,26 +1,11 @@
 "use client";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Typewriter from "typewriter-effect";
 import { FaLongArrowAltDown } from "react-icons/fa";
 export const Main = () => {
-  const [wallpaper] = useState<string[]>([
-    "kagura.gif",
-    "chou.gif",
-    "lancelot.gif",
-    "kadira.gif",
-  ]);
-  const [current, setCurrent] = useState<string>(wallpaper[0]);
-
-  useEffect(() => {
-    let i = 0;
-    const interval = setInterval(() => {
-      i = (i + 1) % wallpaper.length;
-      setCurrent(wallpaper[i]);
-    }, 2500);
-
-    return () => clearInterval(interval);
-  }, [wallpaper]);
+  const [wallpaper] = useState<string[]>(["kagura.gif"]);
+  const [current] = useState<string>(wallpaper[0]);
 
   return (
     <>
