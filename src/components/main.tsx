@@ -8,9 +8,7 @@ export const Main = () => {
     "kagura.gif",
     "chou.gif",
     "lancelot.gif",
-    "angela.gif",
     "kadira.gif",
-    "moskov.gif",
   ]);
   const [current, setCurrent] = useState<string>(wallpaper[0]);
 
