@@ -8,12 +8,15 @@ export const Nav = () => {
         <div>
           <Link className=" flex space-x-3 items-center" href={"/"}>
             <BiCodeAlt size={50} />
-            <h1 style={{ textShadow: "0 0 5px white" }}>
+            <h1
+              style={{ textShadow: "0 0 5px white" }}
+              className="max-sm:text-sm"
+            >
               <b>BSCS 1-1</b>
             </h1>
           </Link>
         </div>
-        <ul className="flex space-x-3 items-center">
+        <ul className="flex space-x-3 items-center max-sm:hidden">
           {[
             ["Home", "/"],
             ["Profiles", "/#profiles"],
