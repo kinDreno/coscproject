@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FaHeart } from "react-icons/fa";
 export default function Footer() {
   return (
@@ -13,12 +14,12 @@ export default function Footer() {
             XAML
           </p>
 
-          <a
+          <Link
             href="/#main"
             className="mt-8 inline-block rounded-full border border-indigo-600 px-12 py-3 text-sm font-medium text-indigo-600 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
           >
             Go Up
-          </a>
+          </Link>
         </div>
 
         <div className="mt-16 border-t border-gray-100 pt-8 sm:flex sm:items-center sm:justify-between lg:mt-24">
