@@ -3,12 +3,6 @@ import { angGandaNia } from "@/types/here";
 import { useState } from "react";
 import { AvatarDemo } from "./profile";
 import Link from "next/link";
-// export type angGandaNia = {
-//     name: string;
-//     img: string;
-//     hobbies: string;
-//     talents: string;
-//   };
 
 const Render = () => {
   const [datas] = useState<angGandaNia[]>([

@@ -10,6 +10,7 @@ export type sluggyHere = {
   talents: string[];
   hero: string;
   heroImg: string;
+  heroQuote: string;
 };
 
 export type MainRender = {

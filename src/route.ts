@@ -8,10 +8,16 @@ const routes = [
     age: 18,
     birthday: "September 7, 2006",
     address: "Sungay East Tagaytay City",
-    hobbies: ["Playing Instruments"],
-    talents: ["Instruments", "Coding"],
+    hobbies: [
+      "Music Performing",
+      "Wandering Alone",
+      "Coding",
+      "Spend time with my Dogs 'Molly' and 'Akie'",
+    ],
+    talents: ["Playing Instruments"],
     hero: "Hayabusa",
     heroImg: "/hayabusa-static.jpg",
+    heroQuote: "“Make peace with your inner self.”",
   },
   {
     slug: "audrey",
@@ -30,6 +36,8 @@ const routes = [
     talents: ["Singing", "Piano"],
     hero: "Zhuxin",
     heroImg: "/zhuxin.jpg",
+    heroQuote:
+      "“For nearly a thousand years, I have wandered in search of the purest wishes to fulfill, hoping to one day find my own.”",
   },
   {
     slug: "mariel",
@@ -52,6 +60,7 @@ const routes = [
     talents: ["Drawing", "Painting", "Creating Arts", "Writing Stories"],
     hero: "Kagura",
     heroImg: "/kagura-static.jpg",
+    heroQuote: "“The umbrella is yang, the human is yin.”",
   },
   {
     slug: "ericka",
@@ -65,6 +74,7 @@ const routes = [
     talents: ["WALA"],
     hero: "Miya",
     heroImg: "/miya.jpg",
+    heroQuote: "“The way of the hunter: moderate, respectful, and sincere.”",
   },
   {
     slug: "tanuyan",
@@ -79,6 +89,7 @@ const routes = [
     talents: ["Singing"],
     hero: "Chang'e",
     heroImg: "/change-static.png",
+    heroQuote: "“Though we are separate, we share the same view of stars.”",
   },
   {
     slug: "bello",
@@ -93,6 +104,7 @@ const routes = [
     talents: ["Drawing", "Painting"],
     hero: "Esmeralda",
     heroImg: "/esme-static.jpg",
+    heroQuote: "“Ah! The stars are my beacon!”",
   },
   {
     slug: "yongis",
@@ -116,6 +128,7 @@ const routes = [
     talents: ["Drawing", "Singing"],
     hero: "Guinevere",
     heroImg: "/guine-static.jpg",
+    heroQuote: "“I'm born with talent.”",
   },
 ];
 

@@ -5,20 +5,20 @@ const reviews = [
   {
     name: "Sinead Audrey Vallestero",
     username: "@audreyVallestero",
-    body: `A warrior of honor and discipline, I walk the path of the samurai. My blade is getSharp,
+    body: `A warrior of honor and discipline, I walk the path of the samurai. My blade is sharp,
 my spirit unbroken.`,
     img: "/audrey.jpg",
   },
   {
     name: "Ericka Sagalez",
     username: "@erickabayot",
-    body: "eA courageous individual who finds joy in watching Marvel movies and listening to BTS, whose music inspires me deeply. In my free time, I enjoy spending moments with my family, friends, and boyfriend, cherishing the peace and happiness they bring.",
+    body: "A courageous individual who finds joy in watching Marvel movies and listening to BTS, whose music inspires me deeply. In my free time, I enjoy spending moments with my family, friends, and boyfriend, cherishing the peace and happiness they bring.",
     img: "/ericka.jpeg",
   },
   {
     name: "Alquin Suedad",
     username: "@quinkino",
-    body: "YAWA!!",
+    body: "You should never stop wanting to have more.",
     img: "/quin.jpg",
   },
   {

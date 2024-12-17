@@ -59,6 +59,10 @@ export default function DynamicPage() {
             style={{ backgroundImage: `url(${route.heroImg})` }}
             className="h-60 bg-cover bg-center rounded-md mb-6"
           />
+          <h1 className="text-center">
+            <b>{route.heroQuote}</b> <br />
+            <small>- {route.hero}</small>
+          </h1>
           <div className="flex items-center space-x-6 mb-6">
             <div className="relative h-32 w-32 overflow-hidden rounded-full">
               <Image
