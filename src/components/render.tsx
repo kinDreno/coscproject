@@ -18,7 +18,7 @@ const Render = () => {
     },
     {
       slug: "mariel",
-      name: "Mariel San Mateo",
+      name: "Mariel Bernice San Mateo",
       img: "/mariel.jpg",
       hobbies: `Playing Chess,
       Cards..`,
@@ -37,7 +37,7 @@ const Render = () => {
     },
     {
       slug: "ericka",
-      name: "Ericka Mae Sagalez",
+      name: "Ericka Mae Sagales",
       img: "/ericka.jpeg",
       hobbies: "mangopya",
       talents: "dko alam ditoh",
