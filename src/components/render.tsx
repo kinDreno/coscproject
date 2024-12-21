@@ -73,7 +73,7 @@ const Render = () => {
     },
     {
       slug: "mirakel",
-      name: "Ehd Miracle Peres Paiton",
+      name: "Ehd Miracle Perez Paiton",
       img: "/mirakel.jpeg",
       hobbies: "Playing Sports",
       talents: "I am good at everything I play",

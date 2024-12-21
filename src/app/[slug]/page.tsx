@@ -104,6 +104,7 @@ export default function DynamicPage() {
           <h1 className="text-center">
             <b>{route.heroQuote}</b> <br />
             <small>- {route.hero}</small>
+            <br />
           </h1>
           <div className="flex items-center space-x-6 mb-6">
             <div className="relative h-32 w-32 overflow-hidden rounded-full">
@@ -116,10 +117,9 @@ export default function DynamicPage() {
               />
             </div>
             <div className="flex flex-col">
-              <h1 className="text-3xl font-semibold text-blue-600">
+              <h1 className="text-3xl font-semibold text-blue-600 max-sm:text-md">
                 {route.name}
               </h1>
-              <p className="text-lg text-gray-600">{route.hero}</p>
             </div>
           </div>
           <div className="mb-6">

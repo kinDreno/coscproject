@@ -40,7 +40,7 @@ const routes = [
     hero: "Zhuxin",
     heroImg: "/zhuxin.jpg",
     heroQuote:
-      "“For nearly a thousand years, I have wandered in search of the purest wishes to fulfill, hoping to one day find my own.”",
+      "“For nearly a thousand years, I have wandered in search of the purest wishes to fulfill, hoping one day to find my own.”",
     heroGif: "/zhuxin-static-gif.jpg",
     heroDesc:
       "An enigmatic young woman from the city of Zhu’an, nestled in the mountains of the Cadia Riverlands. She guides the Ember butterflies and walks between life and death using her Lantern of Spirits.",
@@ -153,7 +153,7 @@ const routes = [
   },
   {
     slug: "mirakel",
-    name: "Ehd Miracle Peres Paiton",
+    name: "Ehd Miracle Perez Paiton",
     imgPer: "/mirakel.jpeg",
     about:
       "I am a skilled and talented individual, especially when it comes to sports and math. I am very sporty, excelling in the games I play and always giving my best on the field. At the same time, I have a strong ability to solve math problems, which shows my focus and sharp thinking. Whether it’s physical activities or academics, I always strive to perform at my best.",
