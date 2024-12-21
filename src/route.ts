@@ -18,6 +18,9 @@ const routes = [
     hero: "Hayabusa",
     heroImg: "/hayabusa-static.jpg",
     heroQuote: "“Make peace with your inner self.”",
+    heroGif: "/hayabusa.gif",
+    heroDesc:
+      "He is a quiet, modest warrior who ensures peace in the Cadia Riverlands like a loyal, powerful, and sharp blade.",
   },
   {
     slug: "audrey",
@@ -38,6 +41,9 @@ const routes = [
     heroImg: "/zhuxin.jpg",
     heroQuote:
       "“For nearly a thousand years, I have wandered in search of the purest wishes to fulfill, hoping to one day find my own.”",
+    heroGif: "/zhuxin-static-gif.jpg",
+    heroDesc:
+      "An enigmatic young woman from the city of Zhu’an, nestled in the mountains of the Cadia Riverlands. She guides the Ember butterflies and walks between life and death using her Lantern of Spirits.",
   },
   {
     slug: "mariel",
@@ -61,6 +67,9 @@ const routes = [
     hero: "Kagura",
     heroImg: "/kagura-static.jpg",
     heroQuote: "“The umbrella is yang, the human is yin.”",
+    heroGif: "/kagura.gif",
+    heroDesc:
+      "She is an Onmyouji Master, inheriting the ancestral treasure Seimei Umbrella from her legendary ancestor, Seimei.",
   },
   {
     slug: "ericka",
@@ -75,6 +84,9 @@ const routes = [
     hero: "Miya",
     heroImg: "/miya.jpg",
     heroQuote: "“The way of the hunter: moderate, respectful, and sincere.”",
+    heroGif: "miya-gif.gif",
+    heroDesc:
+      "In order to protect her homeland, Miya, as the Priestess of the Moon, led the other Moon Elves in a defense against foreign enemies.",
   },
   {
     slug: "tanuyan",
@@ -90,6 +102,9 @@ const routes = [
     hero: "Chang'e",
     heroImg: "/change-static.png",
     heroQuote: "“Though we are separate, we share the same view of stars.”",
+    heroGif: "/change-gif.gif",
+    heroDesc:
+      "She is the youngest disciple of the Great Dragon and is infamous for her mischievous and playful nature.",
   },
   {
     slug: "bello",
@@ -105,6 +120,9 @@ const routes = [
     hero: "Esmeralda",
     heroImg: "/esme-static.jpg",
     heroQuote: "“Ah! The stars are my beacon!”",
+    heroGif: "/esme-gif.gif",
+    heroDesc:
+      "She is the greatest astrologers on the Land of Dawn. Through the treasure star-moon box, she learned the fact that the tyrant Khufra was about to wake up.",
   },
   {
     slug: "yongis",
@@ -129,6 +147,68 @@ const routes = [
     hero: "Guinevere",
     heroImg: "/guine-static.jpg",
     heroQuote: "“I'm born with talent.”",
+    heroGif: "/guine-gif.gif",
+    heroDesc:
+      " She is the youngest daughter of the noble House Baroque and has been studying magic since childhood.",
+  },
+  {
+    slug: "mirakel",
+    name: "Ehd Miracle Peres Paiton",
+    imgPer: "/mirakel.jpeg",
+    about:
+      "I am a skilled and talented individual, especially when it comes to sports and math. I am very sporty, excelling in the games I play and always giving my best on the field. At the same time, I have a strong ability to solve math problems, which shows my focus and sharp thinking. Whether it’s physical activities or academics, I always strive to perform at my best.",
+    age: 19,
+    birthday: "September 16, 2005",
+    address: "303, Lopes Jaena St. Pob.2 GEA-BAILEN",
+    hobbies: [
+      "Playing Volleyball",
+      "Playing Chess",
+      "Stroll Around",
+      " Going to gym every weekend",
+    ],
+    talents: ["Good at everything i play"],
+    hero: "Floryn",
+    heroImg: "/floryn-static.jpg",
+    heroQuote: `"Let's make the whole world green and lively."
+`,
+    heroGif: "/floryn.gif",
+    heroDesc:
+      "A kind-hearted girl who is determined to spread greenery throughout the world.",
+  },
+  {
+    slug: "moises",
+    name: "Moises Patrick Andales",
+    imgPer: "/moises.jpg",
+    about:
+      " I am the person who likes to play online games, and I love watching horror movies, and most of all, I also like to cook.",
+    age: 19,
+    birthday: "May 6, 2005",
+    address: "Purok 189, Sungay west, Tagaytay City",
+    hobbies: ["Playing Video Games"],
+    talents: ["Drawing"],
+    hero: "Balmond",
+    heroImg: "/balmond-static.jpg",
+    heroQuote: "“AJSLKHFLSHDFJSDFJKVKJCHF”",
+    heroGif: "balmond-gif.gif",
+    heroDesc: "Leader of the orc legion.",
+  },
+  {
+    slug: "abion",
+    name: "Cedric Nase Abion",
+    imgPer: "/abion.jpg",
+    about:
+      "A man who loves to skate and to learn many things, also loves to style",
+    age: 21,
+    birthday: "June 14,2003",
+    address: " Imperial Homes Tartaria Silang Cavite",
+    hobbies: ["Skateboarding"],
+    talents: ["None"],
+    hero: "Helcurt",
+    heroImg: "/helcurt-static.jpg",
+    heroQuote: '"Uwing uwi na ak"',
+    heroGif: "/helcurt-gif.gif",
+    heroDesc:
+      "The nightmare of the Abyss who's Willing to betray anyone in order to survive.",
   },
 ];
 

@@ -11,7 +11,7 @@ export default function Footer() {
 
           <p className="mx-auto mt-4 max-w-sm flex justify-center space-x-11 items-center text-gray-500">
             Made with &nbsp; <FaHeart color="red" /> &nbsp; in TailwindCSS and
-            XAML
+            XML
           </p>
 
           <Link

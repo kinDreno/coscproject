@@ -1,6 +1,6 @@
 export type sluggyHere = {
-  slug: string;
-  name: string;
+  slug: string; //!
+  name: string; //!
   imgPer: string;
   about: string;
   age: number;
@@ -11,6 +11,8 @@ export type sluggyHere = {
   hero: string;
   heroImg: string;
   heroQuote: string;
+  heroGif?: string;
+  heroDesc?: string;
 };
 
 export type MainRender = {
@@ -23,4 +25,6 @@ export type angGandaNia = {
   img: string;
   hobbies: string;
   talents: string;
+  type: string;
+  stickerImg: string;
 };

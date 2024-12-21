@@ -10,6 +10,7 @@ export default function DynamicPage() {
   const [route, setRoute] = useState<sluggyHere | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [scrollY, setScrollY] = useState(0); // Track scroll position
 
   useEffect(() => {
     if (!slug) return;
@@ -31,6 +32,16 @@ export default function DynamicPage() {
     fetchRoute();
   }, [slug]);
 
+  // Handle scroll to update scroll position
+  useEffect(() => {
+    function handleScroll() {
+      setScrollY(window.scrollY);
+      console.log("Scroll Y:", window.scrollY); // Debugging scroll position
+    }
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   if (loading) {
     return (
       <div className="flex justify-center items-center h-screen w-full">
@@ -50,10 +61,41 @@ export default function DynamicPage() {
     );
   }
 
+  const fadeOpacity = Math.max(1 - scrollY / 500, 0);
+
   return (
-    <main className="transition-all duration-500 ease-in-out min-h-screen py-14 fade-in relative">
-      <div className="absolute top-0 left-0 right-0 bottom-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]"></div>
+    <main className="transition-all duration-500 ease-in-out min-h-screen fade-in relative">
+      <div
+        style={{
+          backgroundImage: `url(${route.heroGif})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          backgroundPosition: `center ${scrollY * 0.5}px`,
+          opacity: fadeOpacity,
+          transition: "opacity 0.2s ease",
+        }}
+        className="h-screen w-full relative"
+      >
+        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-start justify-center text-white p-8">
+          <section className="p-9 w-[50%] max-sm:w-[100%]">
+            <h2 className="text-4xl font-bold">{route.hero}</h2>
+            <h4 className="text-xl mt-4 break-words">{route.heroDesc}</h4>{" "}
+            <p>
+              <br />
+              <small>Scroll Down</small>
+            </p>
+          </section>
+        </div>
+      </div>
+
       <div className="container mx-auto px-4 relative z-10">
+        {/* Change scrollY threshold for testing */}
+        {scrollY > 100 && ( // Test at scrollY > 100
+          <div className="relative h-full w-full bg-white z-20">
+            {/* Temporarily simplified gradient background */}
+            <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
+          </div>
+        )}
         <div className="shadow-lg rounded-lg p-8 max-w-3xl mx-auto">
           <div
             style={{ backgroundImage: `url(${route.heroImg})` }}

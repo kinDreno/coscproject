@@ -1,19 +1,15 @@
 "use client";
 import Image from "next/image";
-import { useState } from "react";
 import Typewriter from "typewriter-effect";
 import { FaLongArrowAltDown } from "react-icons/fa";
 export const Main = () => {
-  const [wallpaper] = useState<string[]>(["kagura.gif"]);
-  const [current] = useState<string>(wallpaper[0]);
-
   return (
     <>
       <div className="h-screen w-full bg-black/35 absolute top-0 left-0 z-20" />{" "}
       <main className="w-full h-screen relative" id="main">
         <div
           style={{
-            backgroundImage: `url(${current})`,
+            backgroundImage: `url(chou.gif)`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
             backgroundPosition: "center",
@@ -25,7 +21,7 @@ export const Main = () => {
               style={{ textShadow: "0 0 2px white" }}
               className="text-lg text-white space-y-11 max-md:text-sm"
             >
-              <b>Welcome to our COSC15 Website!</b> <br />
+              <b>Welcome to our Land Of Dawn!</b> <br />
               We are a team of passionate individuals, each with unique talents
               and hobbies. Explore our world of skills, interests, and shared
               passions!

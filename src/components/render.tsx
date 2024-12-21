@@ -3,6 +3,7 @@ import { angGandaNia } from "@/types/here";
 import { useState } from "react";
 import { AvatarDemo } from "./profile";
 import Link from "next/link";
+import Image from "next/image";
 
 const Render = () => {
   const [datas] = useState<angGandaNia[]>([
@@ -12,6 +13,8 @@ const Render = () => {
       img: "/audrey.jpg",
       hobbies: "listening to Music, Watching anime...",
       talents: "Singing, Piano...",
+      type: "talkative",
+      stickerImg: "/layla-tease-remov.png",
     },
     {
       slug: "mariel",
@@ -20,6 +23,8 @@ const Render = () => {
       hobbies: `Playing Chess,
       Cards..`,
       talents: "Drawing, Painting...",
+      type: "friendly",
+      stickerImg: "/layla-ya.png",
     },
     {
       slug: "quin",
@@ -27,6 +32,8 @@ const Render = () => {
       img: "/quin.jpg",
       hobbies: "Sleeping zzz..",
       talents: "mag assume",
+      type: "admire",
+      stickerImg: "/gusion-removebg.png",
     },
     {
       slug: "ericka",
@@ -34,6 +41,8 @@ const Render = () => {
       img: "/ericka.jpeg",
       hobbies: "mangopya",
       talents: "dko alam ditoh",
+      type: "Confused",
+      stickerImg: "/lunox-sticker.png",
     },
     {
       slug: "tanuyan",
@@ -41,6 +50,8 @@ const Render = () => {
       img: "/tanuyan.jpg",
       hobbies: "Sleeping, Eating...",
       talents: "Singing",
+      type: "Crazy!!!",
+      stickerImg: "/change-sticker.png",
     },
     {
       slug: "bello",
@@ -48,6 +59,8 @@ const Render = () => {
       img: "/bello.png",
       hobbies: "Cooking, Drawing...",
       talents: "Drawing & Painting",
+      type: "Quiet",
+      stickerImg: "/download.png",
     },
     {
       slug: "yongis",
@@ -55,6 +68,35 @@ const Render = () => {
       img: "/yongis.jpeg",
       hobbies: "Drawing, Photography...",
       talents: "Drawing & Singing",
+      type: "Chill",
+      stickerImg: "/layla-sticker-removebg.png",
+    },
+    {
+      slug: "mirakel",
+      name: "Ehd Miracle Peres Paiton",
+      img: "/mirakel.jpeg",
+      hobbies: "Playing Sports",
+      talents: "I am good at everything I play",
+      type: "Competitive!",
+      stickerImg: "/download().png",
+    },
+    {
+      slug: "moises",
+      name: "Moises Patrick Andales",
+      img: "moises.jpg",
+      hobbies: "Playing Video Games",
+      talents: "Drawing",
+      type: "Errm",
+      stickerImg: "/balmond-nna-removebg.png",
+    },
+    {
+      slug: "abion",
+      name: "Cedric Nase Abion",
+      img: "/abion.jpg",
+      hobbies: "Skateboarding",
+      talents: "None",
+      type: "Skate Skate!",
+      stickerImg: "/chou-removebg.png",
     },
   ]);
 
@@ -83,6 +125,16 @@ const Render = () => {
                   <p className="text-gray-500 text-sm">
                     <strong>Talents:</strong> {data.talents}
                   </p>{" "}
+                  <div className="flex items-center">
+                    <Image
+                      className="w-11 animate-bounce mt-4"
+                      src={data.stickerImg}
+                      alt=""
+                      width={900}
+                      height={900}
+                    />
+                    <p>{data.type}</p>
+                  </div>
                   <h5 className="mt-6 text-sm">
                     {" "}
                     Tap this profile to view information
